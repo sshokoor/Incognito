@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043FB90127C36E8B00F21CD5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB90027C36E8B00F21CD5 /* User.swift */; };
+		043FB90327C37D2A00F21CD5 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB90227C37D2A00F21CD5 /* UserView.swift */; };
+		04541A3327BD6E24007FBACF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04541A3227BD6E24007FBACF /* AppDelegate.swift */; };
+		0499548927B0E774003F59F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0499548827B0E774003F59F7 /* GoogleService-Info.plist */; };
+		0499548D27B0E892003F59F7 /* iActivityIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = 0499548C27B0E892003F59F7 /* iActivityIndicator */; };
+		0499549027B1041F003F59F7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499548F27B1041F003F59F7 /* ImagePicker.swift */; };
+		049C11C727BA462700C2EB35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C11C627BA462700C2EB35 /* Extensions.swift */; };
+		049C11CD27BADBDD00C2EB35 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C11CC27BADBDC00C2EB35 /* Message.swift */; };
+		049C11D227BAE1EE00C2EB35 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C11CF27BAE1ED00C2EB35 /* BlurView.swift */; };
+		049C11D327BAE1EE00C2EB35 /* AlertToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C11D027BAE1ED00C2EB35 /* AlertToast.swift */; };
+		049C11D427BAE1EE00C2EB35 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C11D127BAE1ED00C2EB35 /* ActivityIndicator.swift */; };
+		049C11D827BB6BDC00C2EB35 /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C11D727BB6BDC00C2EB35 /* KeyboardInfo.swift */; };
+		049C11DA27BB8E9300C2EB35 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C11D927BB8E9300C2EB35 /* Chat.swift */; };
+		049C11DC27BBB1FB00C2EB35 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C11DB27BBB1FA00C2EB35 /* PushNotificationSender.swift */; };
+		04AD652627B6357600437CA3 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD652527B6357600437CA3 /* Topic.swift */; };
+		04E117FD27AEC9F9005D1BFC /* Peer2PeerChatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E117FC27AEC9F9005D1BFC /* Peer2PeerChatAppApp.swift */; };
+		04E117FF27AEC9F9005D1BFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E117FE27AEC9F9005D1BFC /* ContentView.swift */; };
+		04E1180127AEC9FB005D1BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E1180027AEC9FB005D1BFC /* Assets.xcassets */; };
+		04E1180427AEC9FB005D1BFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E1180327AEC9FB005D1BFC /* Preview Assets.xcassets */; };
+		04E1180E27AECA4C005D1BFC /* IntroScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1180D27AECA4C005D1BFC /* IntroScreensView.swift */; };
+		04E1181027AECA57005D1BFC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1180F27AECA57005D1BFC /* MainView.swift */; };
+		04E1181227AECCF7005D1BFC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1181127AECCF7005D1BFC /* Constant.swift */; };
+		04E1181527AECD19005D1BFC /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1181427AECD19005D1BFC /* Intro.swift */; };
+		04E1181727B01049005D1BFC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1181627B01049005D1BFC /* LoginView.swift */; };
+		04E1181927B01055005D1BFC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1181827B01055005D1BFC /* RegisterView.swift */; };
+		04E1181B27B01FF3005D1BFC /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1181A27B01FF3005D1BFC /* ForgotPasswordView.swift */; };
+		04E1182327B03F51005D1BFC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1182227B03F51005D1BFC /* ProfileView.swift */; };
+		04E1182527B03F64005D1BFC /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1182427B03F64005D1BFC /* MessageView.swift */; };
+		04E1182727B03FA6005D1BFC /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1182627B03FA6005D1BFC /* TopicView.swift */; };
+		04E85AE327B38FAC0003526F /* UpdatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85AE227B38FAC0003526F /* UpdatePasswordView.swift */; };
+		04F103B927B3B2FC00A45E23 /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F103B827B3B2FC00A45E23 /* LogoutView.swift */; };
+		377C0FDB25176A8EEBEF5A3B /* Pods_Peer2PeerChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153BAEE5320424FC63AA833C /* Pods_Peer2PeerChatApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043FB90027C36E8B00F21CD5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		043FB90227C37D2A00F21CD5 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		04541A3127BD6DB7007FBACF /* Peer2PeerChatApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Peer2PeerChatApp.entitlements; sourceTree = "<group>"; };
+		04541A3227BD6E24007FBACF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0499548827B0E774003F59F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0499548A27B0E782003F59F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0499548F27B1041F003F59F7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		049C11C627BA462700C2EB35 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		049C11CC27BADBDC00C2EB35 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		049C11CF27BAE1ED00C2EB35 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		049C11D027BAE1ED00C2EB35 /* AlertToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertToast.swift; sourceTree = "<group>"; };
+		049C11D127BAE1ED00C2EB35 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		049C11D727BB6BDC00C2EB35 /* KeyboardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardInfo.swift; sourceTree = "<group>"; };
+		049C11D927BB8E9300C2EB35 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		049C11DB27BBB1FA00C2EB35 /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		04AD652527B6357600437CA3 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		04E117F927AEC9F9005D1BFC /* Peer2PeerChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peer2PeerChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E117FC27AEC9F9005D1BFC /* Peer2PeerChatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peer2PeerChatAppApp.swift; sourceTree = "<group>"; };
+		04E117FE27AEC9F9005D1BFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04E1180027AEC9FB005D1BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E1180327AEC9FB005D1BFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04E1180D27AECA4C005D1BFC /* IntroScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreensView.swift; sourceTree = "<group>"; };
+		04E1180F27AECA57005D1BFC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		04E1181127AECCF7005D1BFC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		04E1181427AECD19005D1BFC /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		04E1181627B01049005D1BFC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		04E1181827B01055005D1BFC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		04E1181A27B01FF3005D1BFC /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		04E1182227B03F51005D1BFC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		04E1182427B03F64005D1BFC /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		04E1182627B03FA6005D1BFC /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
+		04E85AE227B38FAC0003526F /* UpdatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePasswordView.swift; sourceTree = "<group>"; };
+		04F103B827B3B2FC00A45E23 /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
+		153BAEE5320424FC63AA833C /* Pods_Peer2PeerChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peer2PeerChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A877FB5EDB7068FEAA3B05 /* Pods-Peer2PeerChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peer2PeerChatApp.debug.xcconfig"; path = "Target Support Files/Pods-Peer2PeerChatApp/Pods-Peer2PeerChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BFA9A6C866C228E8D8A6E9F2 /* Pods-Peer2PeerChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peer2PeerChatApp.release.xcconfig"; path = "Target Support Files/Pods-Peer2PeerChatApp/Pods-Peer2PeerChatApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E117F627AEC9F9005D1BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0499548D27B0E892003F59F7 /* iActivityIndicator in Frameworks */,
+				377C0FDB25176A8EEBEF5A3B /* Pods_Peer2PeerChatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0499548E27B10411003F59F7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0499548F27B1041F003F59F7 /* ImagePicker.swift */,
+				049C11D727BB6BDC00C2EB35 /* KeyboardInfo.swift */,
+				049C11DB27BBB1FA00C2EB35 /* PushNotificationSender.swift */,
+				04541A3227BD6E24007FBACF /* AppDelegate.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		049C11C527BA461400C2EB35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				049C11C627BA462700C2EB35 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		049C11CE27BAE1ED00C2EB35 /* AlertToast */ = {
+			isa = PBXGroup;
+			children = (
+				049C11CF27BAE1ED00C2EB35 /* BlurView.swift */,
+				049C11D027BAE1ED00C2EB35 /* AlertToast.swift */,
+				049C11D127BAE1ED00C2EB35 /* ActivityIndicator.swift */,
+			);
+			path = AlertToast;
+			sourceTree = "<group>";
+		};
+		04E117F027AEC9F9005D1BFC = {
+			isa = PBXGroup;
+			children = (
+				04E117FB27AEC9F9005D1BFC /* Peer2PeerChatApp */,
+				04E117FA27AEC9F9005D1BFC /* Products */,
+				A0C4412E4FE02D0463416EE4 /* Pods */,
+				FC8B7CAE51E769D2B1D6A3EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		04E117FA27AEC9F9005D1BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E117F927AEC9F9005D1BFC /* Peer2PeerChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E117FB27AEC9F9005D1BFC /* Peer2PeerChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				04541A3127BD6DB7007FBACF /* Peer2PeerChatApp.entitlements */,
+				049C11C527BA461400C2EB35 /* Extensions */,
+				049C11CE27BAE1ED00C2EB35 /* AlertToast */,
+				0499548E27B10411003F59F7 /* Util */,
+				0499548A27B0E782003F59F7 /* Info.plist */,
+				0499548827B0E774003F59F7 /* GoogleService-Info.plist */,
+				04E1181327AECD10005D1BFC /* Model */,
+				04E1180C27AECA3B005D1BFC /* Constants */,
+				04E1180A27AECA2E005D1BFC /* Views */,
+				04E117FC27AEC9F9005D1BFC /* Peer2PeerChatAppApp.swift */,
+				04E1180027AEC9FB005D1BFC /* Assets.xcassets */,
+				04E1180227AEC9FB005D1BFC /* Preview Content */,
+			);
+			path = Peer2PeerChatApp;
+			sourceTree = "<group>";
+		};
+		04E1180227AEC9FB005D1BFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04E1180327AEC9FB005D1BFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04E1180A27AECA2E005D1BFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04E1180D27AECA4C005D1BFC /* IntroScreensView.swift */,
+				04E1180F27AECA57005D1BFC /* MainView.swift */,
+				04E117FE27AEC9F9005D1BFC /* ContentView.swift */,
+				04E1181627B01049005D1BFC /* LoginView.swift */,
+				04E1181827B01055005D1BFC /* RegisterView.swift */,
+				04E1181A27B01FF3005D1BFC /* ForgotPasswordView.swift */,
+				04E1182227B03F51005D1BFC /* ProfileView.swift */,
+				04E1182427B03F64005D1BFC /* MessageView.swift */,
+				04E1182627B03FA6005D1BFC /* TopicView.swift */,
+				04E85AE227B38FAC0003526F /* UpdatePasswordView.swift */,
+				04F103B827B3B2FC00A45E23 /* LogoutView.swift */,
+				043FB90227C37D2A00F21CD5 /* UserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04E1180C27AECA3B005D1BFC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				04E1181127AECCF7005D1BFC /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		04E1181327AECD10005D1BFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04E1181427AECD19005D1BFC /* Intro.swift */,
+				04AD652527B6357600437CA3 /* Topic.swift */,
+				049C11CC27BADBDC00C2EB35 /* Message.swift */,
+				049C11D927BB8E9300C2EB35 /* Chat.swift */,
+				043FB90027C36E8B00F21CD5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0C4412E4FE02D0463416EE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38A877FB5EDB7068FEAA3B05 /* Pods-Peer2PeerChatApp.debug.xcconfig */,
+				BFA9A6C866C228E8D8A6E9F2 /* Pods-Peer2PeerChatApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC8B7CAE51E769D2B1D6A3EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				153BAEE5320424FC63AA833C /* Pods_Peer2PeerChatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E117F827AEC9F9005D1BFC /* Peer2PeerChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E1180727AEC9FB005D1BFC /* Build configuration list for PBXNativeTarget "Peer2PeerChatApp" */;
+			buildPhases = (
+				A03B1A4B3E287A4D1327F988 /* [CP] Check Pods Manifest.lock */,
+				04E117F527AEC9F9005D1BFC /* Sources */,
+				04E117F627AEC9F9005D1BFC /* Frameworks */,
+				04E117F727AEC9F9005D1BFC /* Resources */,
+				5ACB084766429656B742BEC8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Peer2PeerChatApp;
+			packageProductDependencies = (
+				0499548C27B0E892003F59F7 /* iActivityIndicator */,
+			);
+			productName = Peer2PeerChatApp;
+			productReference = 04E117F927AEC9F9005D1BFC /* Peer2PeerChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E117F127AEC9F9005D1BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					04E117F827AEC9F9005D1BFC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 04E117F427AEC9F9005D1BFC /* Build configuration list for PBXProject "Peer2PeerChatApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E117F027AEC9F9005D1BFC;
+			packageReferences = (
+				0499548B27B0E892003F59F7 /* XCRemoteSwiftPackageReference "iActivityIndicator" */,
+			);
+			productRefGroup = 04E117FA27AEC9F9005D1BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E117F827AEC9F9005D1BFC /* Peer2PeerChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E117F727AEC9F9005D1BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E1180427AEC9FB005D1BFC /* Preview Assets.xcassets in Resources */,
+				04E1180127AEC9FB005D1BFC /* Assets.xcassets in Resources */,
+				0499548927B0E774003F59F7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ACB084766429656B742BEC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Peer2PeerChatApp/Pods-Peer2PeerChatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Peer2PeerChatApp/Pods-Peer2PeerChatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Peer2PeerChatApp/Pods-Peer2PeerChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A03B1A4B3E287A4D1327F988 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Peer2PeerChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E117F527AEC9F9005D1BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043FB90127C36E8B00F21CD5 /* User.swift in Sources */,
+				0499549027B1041F003F59F7 /* ImagePicker.swift in Sources */,
+				04E1181227AECCF7005D1BFC /* Constant.swift in Sources */,
+				04E85AE327B38FAC0003526F /* UpdatePasswordView.swift in Sources */,
+				049C11CD27BADBDD00C2EB35 /* Message.swift in Sources */,
+				049C11D427BAE1EE00C2EB35 /* ActivityIndicator.swift in Sources */,
+				04E1181727B01049005D1BFC /* LoginView.swift in Sources */,
+				04E1182327B03F51005D1BFC /* ProfileView.swift in Sources */,
+				049C11DC27BBB1FB00C2EB35 /* PushNotificationSender.swift in Sources */,
+				049C11D327BAE1EE00C2EB35 /* AlertToast.swift in Sources */,
+				04AD652627B6357600437CA3 /* Topic.swift in Sources */,
+				04E117FF27AEC9F9005D1BFC /* ContentView.swift in Sources */,
+				04E1181527AECD19005D1BFC /* Intro.swift in Sources */,
+				04F103B927B3B2FC00A45E23 /* LogoutView.swift in Sources */,
+				04541A3327BD6E24007FBACF /* AppDelegate.swift in Sources */,
+				04E1181027AECA57005D1BFC /* MainView.swift in Sources */,
+				049C11DA27BB8E9300C2EB35 /* Chat.swift in Sources */,
+				04E1182527B03F64005D1BFC /* MessageView.swift in Sources */,
+				04E1181927B01055005D1BFC /* RegisterView.swift in Sources */,
+				04E1182727B03FA6005D1BFC /* TopicView.swift in Sources */,
+				04E1180E27AECA4C005D1BFC /* IntroScreensView.swift in Sources */,
+				049C11C727BA462700C2EB35 /* Extensions.swift in Sources */,
+				049C11D227BAE1EE00C2EB35 /* BlurView.swift in Sources */,
+				04E1181B27B01FF3005D1BFC /* ForgotPasswordView.swift in Sources */,
+				049C11D827BB6BDC00C2EB35 /* KeyboardInfo.swift in Sources */,
+				043FB90327C37D2A00F21CD5 /* UserView.swift in Sources */,
+				04E117FD27AEC9F9005D1BFC /* Peer2PeerChatAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04E1180527AEC9FB005D1BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E1180627AEC9FB005D1BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E1180827AEC9FB005D1BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A877FB5EDB7068FEAA3B05 /* Pods-Peer2PeerChatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Peer2PeerChatApp/Peer2PeerChatApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Peer2PeerChatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SUZJS26922;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Peer2PeerChatApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Incognito;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Peer2PeerChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E1180927AEC9FB005D1BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA9A6C866C228E8D8A6E9F2 /* Pods-Peer2PeerChatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Peer2PeerChatApp/Peer2PeerChatApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Peer2PeerChatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SUZJS26922;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Peer2PeerChatApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Incognito;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Peer2PeerChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E117F427AEC9F9005D1BFC /* Build configuration list for PBXProject "Peer2PeerChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E1180527AEC9FB005D1BFC /* Debug */,
+				04E1180627AEC9FB005D1BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E1180727AEC9FB005D1BFC /* Build configuration list for PBXNativeTarget "Peer2PeerChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E1180827AEC9FB005D1BFC /* Debug */,
+				04E1180927AEC9FB005D1BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0499548B27B0E892003F59F7 /* XCRemoteSwiftPackageReference "iActivityIndicator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iActivityIndicator.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0499548C27B0E892003F59F7 /* iActivityIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0499548B27B0E892003F59F7 /* XCRemoteSwiftPackageReference "iActivityIndicator" */;
+			productName = iActivityIndicator;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04E117F127AEC9F9005D1BFC /* Project object */;
+}

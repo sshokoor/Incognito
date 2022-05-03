@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>291226767536-ungu9djnfe7l70aasj1ngj93m2fm3nsr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.291226767536-ungu9djnfe7l70aasj1ngj93m2fm3nsr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA8sIlkOmuCn4Gs20xyWhzklfLwukgsRvA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>291226767536</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Peer2PeerChatApp</string>
+	<key>PROJECT_ID</key>
+	<string>peer2peerchatapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>peer2peerchatapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:291226767536:ios:3506920a2e6a6bbca92b75</string>
+</dict>
+</plist>
